@@ -2373,6 +2373,15 @@
           "pinCode": "110006",
           "phone": "12312331232",
           "street": "12th cross"
+        },
+        {
+          "name": "Shivam thakur",
+          "email": "shivam @gamil.com",
+          "phone": "9889656476",
+          "street": "patel nage bhopal",
+          "city": "bhopal",
+          "state": "Madhya Pradesh",
+          "pinCode": "462022"
         }
       ],
       "id": 1
@@ -2400,9 +2409,51 @@
       "addresses": [],
       "role": "admin",
       "id": 3
+    },
+    {
+      "email": "techglory15@gmail.com",
+      "password": "Techie@123",
+      "addresses": [
+        {
+          "name": "Rajan Kumar",
+          "email": "rajankky908@gmail.com",
+          "phone": "08839065735",
+          "street": "Ishaan Park, Patel Nagar",
+          "city": "Bhopal",
+          "state": "Madhya Pradesh",
+          "pinCode": "462022"
+        }
+      ],
+      "role": "user",
+      "id": 4
+    },
+    {
+      "email": "apnaclips@gmail.com",
+      "password": "Apna@123",
+      "addresses": [],
+      "role": "user",
+      "id": 5
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/3/1.jpg"
+      ],
+      "quantity": 1,
+      "user": 5,
+      "id": 1
+    }
+  ],
   "orders": [
     {
       "items": [
@@ -2464,7 +2515,7 @@
         "state": "Karnataka",
         "pinCode": "560034"
       },
-      "status": "dispatched",
+      "status": "delivered",
       "id": 1
     },
     {
@@ -3099,6 +3150,189 @@
       },
       "status": "pending",
       "id": 11
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 1111,
+          "discountPercentage": 17.94,
+          "rating": 0,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 1
+        }
+      ],
+      "totalAmount": 912,
+      "totalItems": 1,
+      "user": {
+        "email": "techglory15@gmail.com",
+        "password": "Techie@123",
+        "addresses": [
+          {
+            "name": "Rajan Kumar",
+            "email": "rajankky908@gmail.com",
+            "phone": "08839065735",
+            "street": "Ishaan Park, Patel Nagar",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "pinCode": "462022"
+          }
+        ],
+        "role": "user",
+        "id": 4
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Rajan Kumar",
+        "email": "rajankky908@gmail.com",
+        "phone": "08839065735",
+        "street": "Ishaan Park, Patel Nagar",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "pinCode": "462022"
+      },
+      "status": "pending",
+      "id": 12
+    },
+    {
+      "items": [
+        {
+          "title": "Huawei P30",
+          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+          "price": 499,
+          "discountPercentage": 10.58,
+          "rating": 4.09,
+          "stock": 32,
+          "brand": "Huawei",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/5/1.jpg",
+            "https://i.dummyjson.com/data/products/5/2.jpg",
+            "https://i.dummyjson.com/data/products/5/3.jpg"
+          ],
+          "quantity": 3,
+          "user": 4,
+          "id": 1
+        }
+      ],
+      "totalAmount": 1338,
+      "totalItems": 3,
+      "user": {
+        "email": "techglory15@gmail.com",
+        "password": "Techie@123",
+        "addresses": [
+          {
+            "name": "Rajan Kumar",
+            "email": "rajankky908@gmail.com",
+            "phone": "08839065735",
+            "street": "Ishaan Park, Patel Nagar",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "pinCode": "462022"
+          }
+        ],
+        "role": "user",
+        "id": 4
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Rajan Kumar",
+        "email": "rajankky908@gmail.com",
+        "phone": "08839065735",
+        "street": "Ishaan Park, Patel Nagar",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "pinCode": "462022"
+      },
+      "status": "pending",
+      "id": 13
+    },
+    {
+      "items": [
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 1346,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Abhishek Rathore",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+          {
+            "name": "Jack Morris",
+            "email": "jack@gmail.com",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110006",
+            "phone": "12312331232",
+            "street": "12th cross"
+          },
+          {
+            "name": "Shivam thakur",
+            "email": "shivam @gamil.com",
+            "phone": "9889656476",
+            "street": "patel nage bhopal",
+            "city": "bhopal",
+            "state": "Madhya Pradesh",
+            "pinCode": "462022"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Shivam thakur",
+        "email": "shivam @gamil.com",
+        "phone": "9889656476",
+        "street": "patel nage bhopal",
+        "city": "bhopal",
+        "state": "Madhya Pradesh",
+        "pinCode": "462022"
+      },
+      "status": "pending",
+      "id": 14
     }
   ]
 }
